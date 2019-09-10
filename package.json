@@ -1,0 +1,23 @@
+{
+  "name": "notate-server",
+  "version": "1.0.0",
+  "description": "A GraphQL server for a note taking service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stuartthompson/notate-server.git"
+  },
+  "keywords": [
+    "graphql",
+    "javascript"
+  ],
+  "author": "Stuart Thompson",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/stuartthompson/notate-server/issues"
+  },
+  "homepage": "https://github.com/stuartthompson/notate-server#readme"
+}
