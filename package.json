@@ -15,6 +15,9 @@
     "graphql",
     "javascript"
   ],
+  "engines": {
+    "node": "10.x"
+  },
   "author": "Stuart Thompson",
   "license": "GPL-3.0-or-later",
   "bugs": {
@@ -24,9 +27,8 @@
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "firebase": "^6.6.0",
     "graphql-yoga": "^1.18.3"
-  },
-  "devDependencies": {
-    "babel-preset-es2015": "^6.24.1"
   }
 }
