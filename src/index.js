@@ -41,6 +41,12 @@ const server = new GraphQLServer({
     resolvers
 });
 
-server.start(() => {
-    console.log('Notate server started.');
+const port = process.env.PORT || 8080;
+
+const options = {
+    port
+}
+
+server.start(options, ({port}) => {
+    console.log(`Notate server started on port ${port}.`);
 });
